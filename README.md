@@ -162,7 +162,6 @@ Sophomore, IIIT Kalyani
 
 ---
 
-If you want, I can also:
 
 
 
