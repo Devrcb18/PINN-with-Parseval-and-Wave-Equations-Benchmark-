@@ -1,22 +1,11 @@
-## Professional README.md Refinement
 
-This version is optimized for readability, technical clarity, and professional appeal. It highlights your specific contribution (Parseval Regularization) while maintaining a standard structure favored by recruiters and researchers.
-
----
 
 # PINN with Parseval Regularization: Wave Equation Benchmark
 
 This repository implements a **Physics-Informed Neural Network (PINN)** enhanced with **Parseval-based Spectral Regularization**. The project benchmarks this novel approach against the classical 1D Wave Equation to demonstrate improvements in stability, convergence, and high-frequency wave approximation.
 
-## 🚀 Key Features
-* **Physics-Informed Architecture:** Embeds physical laws (PDEs) directly into the neural network loss function using automatic differentiation.
-* **Parseval Regularization:** Implements a spectral penalty inspired by Parseval’s Theorem to enforce energy conservation between spatial and frequency domains.
-* **Performance Benchmarking:** Comparative analysis demonstrating reduced spectral bias and improved generalization over vanilla PINNs.
-* **Extensible Framework:** Built with **PyTorch**, designed for easy adaptation to 2D wave equations or Navier-Stokes.
 
----
-
-## 📖 Mathematical Formulation
+## Mathematical Formulation
 
 The model solves the **1D Wave Equation**:
 $$u_{tt} = c^2 \cdot u_{xx}$$
@@ -35,7 +24,7 @@ This penalty term helps the model capture high-frequency components that standar
 
 ---
 
-## 📊 Results
+##  Results
 The Parseval-regularized PINN demonstrates:
 * **Enhanced Stability:** Faster and more consistent convergence during training.
 * **High-Frequency Accuracy:** Improved reconstruction of complex wave patterns.
@@ -43,7 +32,7 @@ The Parseval-regularized PINN demonstrates:
 
 ---
 
-## 🛠️ Getting Started
+##  Getting Started
 
 ### Installation
 ```bash
